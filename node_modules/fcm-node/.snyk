@@ -1,0 +1,70 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-HTTPSPROXYAGENT-469131:
+    - firebase-admin > @google-cloud/storage > teeny-request > https-proxy-agent:
+        patched: '2020-03-09T17:42:08.007Z'
+    - firebase-admin > @google-cloud/storage > gcs-resumable-upload > gaxios > https-proxy-agent:
+        patched: '2020-03-09T17:42:08.007Z'
+    - firebase-admin > @google-cloud/firestore > google-gax > google-auth-library > https-proxy-agent:
+        patched: '2020-03-09T17:42:08.007Z'
+    - firebase-admin > @google-cloud/storage > @google-cloud/common > google-auth-library > https-proxy-agent:
+        patched: '2020-03-09T17:42:08.007Z'
+    - firebase-admin > @google-cloud/storage > gcs-resumable-upload > google-auth-library > https-proxy-agent:
+        patched: '2020-03-09T17:42:08.007Z'
+    - firebase-admin > @google-cloud/firestore > google-gax > google-auth-library > gaxios > https-proxy-agent:
+        patched: '2020-03-09T17:42:08.007Z'
+    - firebase-admin > @google-cloud/storage > @google-cloud/common > google-auth-library > gaxios > https-proxy-agent:
+        patched: '2020-03-09T17:42:08.007Z'
+    - firebase-admin > @google-cloud/storage > gcs-resumable-upload > google-auth-library > gaxios > https-proxy-agent:
+        patched: '2020-03-09T17:42:08.007Z'
+    - firebase-admin > @google-cloud/firestore > google-gax > google-auth-library > gcp-metadata > gaxios > https-proxy-agent:
+        patched: '2020-03-09T17:42:08.007Z'
+    - firebase-admin > @google-cloud/storage > @google-cloud/common > google-auth-library > gcp-metadata > gaxios > https-proxy-agent:
+        patched: '2020-03-09T17:42:08.007Z'
+    - firebase-admin > @google-cloud/storage > gcs-resumable-upload > google-auth-library > gcp-metadata > gaxios > https-proxy-agent:
+        patched: '2020-03-09T17:42:08.007Z'
+    - firebase-admin > @google-cloud/firestore > google-gax > google-auth-library > gtoken > gaxios > https-proxy-agent:
+        patched: '2020-03-09T17:42:08.007Z'
+    - firebase-admin > @google-cloud/storage > @google-cloud/common > google-auth-library > gtoken > gaxios > https-proxy-agent:
+        patched: '2020-03-09T17:42:08.007Z'
+    - firebase-admin > @google-cloud/storage > gcs-resumable-upload > google-auth-library > gtoken > gaxios > https-proxy-agent:
+        patched: '2020-03-09T17:42:08.007Z'
+  SNYK-JS-LODASH-450202:
+    - firebase-admin > @google-cloud/storage > async > lodash:
+        patched: '2020-03-09T17:42:08.007Z'
+  SNYK-JS-LODASH-567746:
+    - snyk > lodash:
+        patched: '2020-05-01T05:05:32.495Z'
+    - snyk > @snyk/dep-graph > lodash:
+        patched: '2020-05-01T05:05:32.495Z'
+    - snyk > inquirer > lodash:
+        patched: '2020-05-01T05:05:32.495Z'
+    - snyk > snyk-config > lodash:
+        patched: '2020-05-01T05:05:32.495Z'
+    - snyk > snyk-mvn-plugin > lodash:
+        patched: '2020-05-01T05:05:32.495Z'
+    - snyk > snyk-nodejs-lockfile-parser > lodash:
+        patched: '2020-05-01T05:05:32.495Z'
+    - snyk > snyk-nuget-plugin > lodash:
+        patched: '2020-05-01T05:05:32.495Z'
+    - snyk > @snyk/dep-graph > graphlib > lodash:
+        patched: '2020-05-01T05:05:32.495Z'
+    - snyk > snyk-go-plugin > graphlib > lodash:
+        patched: '2020-05-01T05:05:32.495Z'
+    - snyk > snyk-nodejs-lockfile-parser > graphlib > lodash:
+        patched: '2020-05-01T05:05:32.495Z'
+    - snyk > @snyk/snyk-cocoapods-plugin > @snyk/dep-graph > lodash:
+        patched: '2020-05-01T05:05:32.495Z'
+    - snyk > snyk-nuget-plugin > dotnet-deps-parser > lodash:
+        patched: '2020-05-01T05:05:32.495Z'
+    - snyk > snyk-php-plugin > @snyk/composer-lockfile-parser > lodash:
+        patched: '2020-05-01T05:05:32.495Z'
+    - snyk > @snyk/snyk-cocoapods-plugin > @snyk/dep-graph > graphlib > lodash:
+        patched: '2020-05-01T05:05:32.495Z'
+    - snyk > @snyk/snyk-cocoapods-plugin > @snyk/cocoapods-lockfile-parser > @snyk/ruby-semver > lodash:
+        patched: '2020-05-01T05:05:32.495Z'
+    - snyk > @snyk/snyk-cocoapods-plugin > @snyk/cocoapods-lockfile-parser > @snyk/dep-graph > graphlib > lodash:
+        patched: '2020-05-01T05:05:32.495Z'

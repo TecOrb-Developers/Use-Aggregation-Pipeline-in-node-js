@@ -1,0 +1,1 @@
+"use strict";exports.__esModule=true;exports.default=void 0;var formatNumerals=function formatNumerals(numerals){return function(value){return value.replace(/[0-9]/g,(function(i){return numerals[+i]}))}};var _default=formatNumerals;exports.default=_default;

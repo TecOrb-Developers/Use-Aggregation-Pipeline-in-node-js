@@ -1,0 +1,1 @@
+"use strict";exports.__esModule=true;exports.default=void 0;var _default=function _default(x){return x!==null&&typeof x==="object"&&!Array.isArray(x)};exports.default=_default;

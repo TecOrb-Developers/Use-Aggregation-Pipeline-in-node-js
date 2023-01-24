@@ -1,0 +1,1 @@
+"use strict";exports.__esModule=true;exports.default=void 0;var inDelta=function inDelta(a,b){return b-1e-6<a&&a<b+1e-6};var _default=inDelta;exports.default=_default;

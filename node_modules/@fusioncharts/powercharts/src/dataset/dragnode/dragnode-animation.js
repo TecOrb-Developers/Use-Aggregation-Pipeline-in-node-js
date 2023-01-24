@@ -1,0 +1,1 @@
+"use strict";exports.__esModule=true;exports.default=void 0;var _default={"initial.dataset.dragNode":function initialDatasetDragNode(){return{"node.appearing":function nodeAppearing(){return[{initialAttr:{opacity:0},finalAttr:{opacity:1},slot:"axis"}]}}}};exports.default=_default;

@@ -1,0 +1,1 @@
+"use strict";exports.__esModule=true;exports.default=void 0;var _default={crossline:{crossline:{path:{updating:function updating(input){return[{initialAttr:{path:input.el.attr("path")},finalAttr:{path:input.attr.path}}]}}}}};exports.default=_default;

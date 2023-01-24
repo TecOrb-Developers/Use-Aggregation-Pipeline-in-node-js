@@ -1,0 +1,1 @@
+"use strict";exports.__esModule=true;exports.default=void 0;var _default=function _default(x){return typeof x==="string"};exports.default=_default;

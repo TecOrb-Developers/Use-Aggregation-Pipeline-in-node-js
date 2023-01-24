@@ -1,0 +1,1 @@
+"use strict";var _interopRequireDefault=require("@babel/runtime/helpers/interopRequireDefault");exports.__esModule=true;exports.default=void 0;var _index=_interopRequireDefault(require("../pie2d/index.animation"));var _default={"initial.dataset.doughnut2D":_index.default["initial.dataset.pie2D"]};exports.default=_default;

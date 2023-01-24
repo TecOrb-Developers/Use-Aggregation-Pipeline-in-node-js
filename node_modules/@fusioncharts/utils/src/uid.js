@@ -1,0 +1,1 @@
+"use strict";exports.__esModule=true;exports.default=void 0;var counter=0;var uid=function uid(prefix){if(prefix===void 0){prefix=""}return prefix+""+counter++};var _default=uid;exports.default=_default;

@@ -1,0 +1,1 @@
+"use strict";var _interopRequireDefault=require("@babel/runtime/helpers/interopRequireDefault");exports.__esModule=true;exports.default=void 0;var _exponent=_interopRequireDefault(require("./exponent"));var precisionFixed=function precisionFixed(step){return Math.max(0,-(0,_exponent.default)(Math.abs(step)))};var _default=precisionFixed;exports.default=_default;

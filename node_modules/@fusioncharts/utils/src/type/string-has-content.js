@@ -1,0 +1,1 @@
+"use strict";var _interopRequireDefault=require("@babel/runtime/helpers/interopRequireDefault");exports.__esModule=true;exports.default=void 0;var _isString=_interopRequireDefault(require("./is-string"));var _default=function _default(param){return(0,_isString.default)(param)&&param.length};exports.default=_default;

@@ -1,0 +1,1 @@
+"use strict";exports.__esModule=true;exports.default=void 0;var _default={"initial.centerLabel.centerLabel.text.appearing":function initialCenterLabelCenterLabelTextAppearing(json){if(json.attr){return[{initialAttr:{x:json.attr.x,y:json.attr.y}}]}}};exports.default=_default;

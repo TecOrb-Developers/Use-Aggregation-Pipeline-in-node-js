@@ -1,0 +1,1 @@
+"use strict";exports.__esModule=true;exports.default=void 0;var _default={"initial.dataset.errorLine":function initialDatasetErrorLine(){return{"path.appearing":function pathAppearing(){return[{initialAttr:{opacity:0},finalAttr:{opacity:1},startEnd:{start:.5,end:1},slot:"plot"}]},"*":null}}};exports.default=_default;

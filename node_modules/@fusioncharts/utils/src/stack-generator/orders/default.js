@@ -1,0 +1,1 @@
+"use strict";exports.__esModule=true;exports.default=void 0;var _default=function _default(series){var n=series.length;var o=new Array(n);while(--n>=0){o[n]=n}return o};exports.default=_default;

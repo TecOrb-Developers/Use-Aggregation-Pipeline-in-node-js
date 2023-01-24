@@ -1,0 +1,10 @@
+import { Options } from '../types';
+import { ScanResult } from '../ecosystems/types';
+import { CreateDepGraphResponse, FileHashes, GetDepGraphResponse, GetIssuesResponse, IssuesRequestAttributes } from '../ecosystems/unmanaged/types';
+import { ResolveAndTestFactsResponse } from './types';
+import { TestDependenciesResult } from '../snyk-test/legacy';
+export declare function getIssues(issuesRequestAttributes: IssuesRequestAttributes, orgId: string): Promise<GetIssuesResponse>;
+export declare function getDepGraph(id: string, orgId: string): Promise<GetDepGraphResponse>;
+export declare function createDepGraph(hashes: FileHashes, orgId: string): Promise<CreateDepGraphResponse>;
+export declare function requestTestPollingToken(options: Options, isAsync: boolean, scanResult: ScanResult): Promise<ResolveAndTestFactsResponse>;
+export declare function pollingTestWithTokenUntilDone(token: string, type: string, options: Options, pollInterval: number, attemptsCount: number, maxAttempts?: number): Promise<TestDependenciesResult>;

@@ -1,0 +1,142 @@
+{
+  "name": "jroute-project",
+  "version": "0.0.0",
+  "scripts": {
+    "build": "./node_modules/.bin/ts-node build.ts",
+    "lint": "eslint . --ext .ts",
+    "start": "node -r module-alias/register ./dist --env=development",
+    "start:dev": "nodemon",
+    "test": "nodemon --config ./spec/nodemon.json",
+    "test:no-reloading": "./node_modules/.bin/ts-node -r tsconfig-paths/register ./spec"
+  },
+  "nodemonConfig": {
+    "watch": [
+      "src"
+    ],
+    "ext": "ts, html",
+    "ignore": [
+      "src/public"
+    ],
+    "exec": "./node_modules/.bin/ts-node -r tsconfig-paths/register ./src"
+  },
+  "_moduleAliases": {
+    "@controllers": "dist/controllers",
+    "@utils": "dist/utils",
+    "@server": "dist/server",
+    "@routes": "dist/routes",
+    "@models": "dist/models",
+    "@validators": "dist/validators"
+  },
+  "eslintConfig": {
+    "parser": "@typescript-eslint/parser",
+    "plugins": [
+      "@typescript-eslint"
+    ],
+    "extends": [
+      "eslint:recommended",
+      "plugin:@typescript-eslint/recommended",
+      "plugin:@typescript-eslint/recommended-requiring-type-checking"
+    ],
+    "parserOptions": {
+      "project": "./tsconfig.json"
+    },
+    "rules": {
+      "max-len": [
+        "error",
+        {
+          "code": 100
+        }
+      ],
+      "no-console": 1,
+      "no-extra-boolean-cast": 0,
+      "@typescript-eslint/restrict-plus-operands": 0,
+      "@typescript-eslint/explicit-module-boundary-types": 0,
+      "@typescript-eslint/no-explicit-any": 0,
+      "@typescript-eslint/no-floating-promises": 0,
+      "@typescript-eslint/no-unsafe-member-access": 0,
+      "@typescript-eslint/no-unsafe-assignment": 0
+    }
+  },
+  "eslintIgnore": [
+    "src/public/",
+    "build.ts"
+  ],
+  "dependencies": {
+    "@types/bcrypt": "^5.0.0",
+    "axios": "^0.26.1",
+    "bcrypt": "^5.1.0",
+    "cloudinary": "^1.29.0",
+    "command-line-args": "^5.2.1",
+    "cookie-parser": "^1.4.6",
+    "cron": "^2.2.0",
+    "crypto-js": "^4.1.1",
+    "datepicker": "0.0.0",
+    "decrypt": "^0.0.1",
+    "dotenv": "^16.0.0",
+    "ejs": "^3.1.8",
+    "encrypt": "^0.0.1",
+    "expo-firebase-recaptcha": "^2.2.0",
+    "express": "^4.17.3",
+    "express-async-errors": "^3.1.1",
+    "fcm-node": "^1.6.1",
+    "firebase": "^9.9.0",
+    "fusioncharts": "^3.19.0",
+    "geolib": "^3.3.3",
+    "getdistance": "^1.0.0",
+    "haversine": "^1.1.1",
+    "haversine-distance": "^1.2.1",
+    "helmet": "^5.0.2",
+    "html-pdf": "^2.1.0",
+    "http-status-codes": "^2.2.0",
+    "jet-logger": "^1.1.5",
+    "joi": "^17.6.0",
+    "jquery-fusioncharts": "^1.2.1",
+    "js-datepicker": "^5.18.0",
+    "jsonfile": "^6.1.0",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "module-alias": "^2.2.2",
+    "moment-timezone": "^0.5.34",
+    "mongodb": "^4.10.0",
+    "mongoose": "^6.2.7",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.4",
+    "multer-storage": "^0.4.1",
+    "multer-storage-cloudinary": "^4.0.0",
+    "node-cron": "^3.0.2",
+    "node-schedule": "^2.1.1",
+    "pdfmake": "^0.2.5",
+    "promise": "^8.1.0",
+    "qrcode": "^1.5.1",
+    "socket.io": "^4.5.0",
+    "tscpaths": "^0.0.9",
+    "twilio": "^3.82.2",
+    "underscore": "^1.13.2"
+  },
+  "devDependencies": {
+    "@types/command-line-args": "^5.2.0",
+    "@types/cookie-parser": "^1.4.2",
+    "@types/express": "^4.17.13",
+    "@types/find": "^0.2.1",
+    "@types/fs-extra": "^9.0.13",
+    "@types/jasmine": "^4.0.0",
+    "@types/jsonfile": "^6.1.0",
+    "@types/morgan": "^1.9.3",
+    "@types/node": "^17.0.21",
+    "@types/qrcode": "^1.5.0",
+    "@types/supertest": "^2.0.11",
+    "@typescript-eslint/eslint-plugin": "^5.15.0",
+    "@typescript-eslint/parser": "^5.15.0",
+    "eslint": "^8.11.0",
+    "find": "^0.3.0",
+    "fs-extra": "^10.0.1",
+    "jasmine": "^4.0.2",
+    "nodemon": "^2.0.15",
+    "supertest": "^6.2.2",
+    "ts-node": "^10.7.0",
+    "tsc-alias": "^1.6.4",
+    "tsconfig-paths": "^3.14.0",
+    "typescript": "^4.6.2",
+    "typescript-module-alias": "^1.0.2"
+  }
+}

@@ -1,0 +1,1 @@
+"use strict";describe("This is a sample test case",(function(){it("Just tests if true is true",(function _test(){expect(true).toEqual(true)}))}));

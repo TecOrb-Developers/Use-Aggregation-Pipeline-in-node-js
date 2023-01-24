@@ -1,0 +1,1 @@
+"use strict";exports.__esModule=true;exports.default=void 0;var animationObject={initialAttr:{opacity:0},finalAttr:{opacity:1},slot:"initial"};var _default={"initial.canvas.canvas":{"canvas.appearing":[animationObject]}};exports.default=_default;

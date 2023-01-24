@@ -1,0 +1,1 @@
+"use strict";exports.__esModule=true;exports.default=void 0;var _default=function _default(x){return Math.round(x*1e12)/1e12};exports.default=_default;

@@ -1,0 +1,1 @@
+"use strict";exports.__esModule=true;exports.default=void 0;var _default={"initial.background.background":function initialBackgroundBackground(){return{"rect.appearing":function rectAppearing(){return[{initialAttr:{opacity:0},finalAttr:{opacity:1},slot:"initial"}]}}}};exports.default=_default;

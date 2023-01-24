@@ -1,0 +1,1 @@
+"use strict";var _interopRequireDefault=require("@babel/runtime/helpers/interopRequireDefault");var _=_interopRequireDefault(require("./"));describe("test aggregation class",(function(){it("register and resolve a aggregator in the store",(function(){var fn=function fn(){};_.default.register("testMethod",fn);expect(_.default.resolve("testMethod")).toEqual(fn)}))}));

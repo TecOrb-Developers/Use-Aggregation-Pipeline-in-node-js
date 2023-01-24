@@ -1,0 +1,1 @@
+"use strict";exports.__esModule=true;exports.removeComponents=void 0;var removeComponents=function removeComponents(component,set){component&&component.iterateComponents((function(child){if(set.indexOf(child.getName().toLowerCase())===-1&&!child.getLinkedParent().getState("removed")){child.remove()}}))};exports.removeComponents=removeComponents;

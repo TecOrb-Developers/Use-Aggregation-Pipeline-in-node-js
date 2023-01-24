@@ -1,0 +1,1 @@
+"use strict";exports.__esModule=true;exports.default=void 0;var _default={"initial.caption.caption":function initialCaptionCaption(){return{"text.appearing":function textAppearing(){return[{initialAttr:{opacity:0},finalAttr:{opacity:1},slot:"initial"}]}}}};exports.default=_default;

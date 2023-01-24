@@ -1,0 +1,1 @@
+"use strict";exports.__esModule=true;exports.OperatorTypes=void 0;var OperatorTypes={IndexOpsFilter:0,GenericFilter:1,GroupBy:2,Sort:3,Select:4};exports.OperatorTypes=OperatorTypes;

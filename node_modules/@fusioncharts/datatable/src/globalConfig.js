@@ -1,0 +1,1 @@
+"use strict";exports.__esModule=true;exports.getConfig=getConfig;exports.setConfig=setConfig;var globalConfig={enableUTC:false};function getConfig(configName){if(!configName)throw new Error("configName is missing");return globalConfig[configName]}function setConfig(configName,configVal){if(!configName)throw new Error("configName is missing");globalConfig[configName]=configVal}

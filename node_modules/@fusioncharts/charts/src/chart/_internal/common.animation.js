@@ -1,0 +1,1 @@
+"use strict";exports.__esModule=true;exports.default=void 0;var _default={"*.*.*":{"*.disappearing":[{finalAttr:{opacity:0},slot:"initial",callback:function callback(){this.hide()}}]}};exports.default=_default;

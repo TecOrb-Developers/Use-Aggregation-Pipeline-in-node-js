@@ -1,0 +1,1 @@
+"use strict";exports.__esModule=true;exports.isNumber=void 0;var isNumber=function isNumber(x){return typeof x==="number"&&!isNaN(x-x)};exports.isNumber=isNumber;

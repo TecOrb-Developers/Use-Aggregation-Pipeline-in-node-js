@@ -1,0 +1,1 @@
+"use strict";exports.__esModule=true;exports.default=void 0;var _default=function _default(str){if(str===void 0){str=""}return str.charAt(0).toUpperCase()+str.slice(1)};exports.default=_default;

@@ -1,0 +1,1 @@
+"use strict";exports.__esModule=true;exports.default=void 0;var diff=function diff(arr1,arr2){return arr1.filter((function(ele){return arr2.indexOf(ele)<0}))};var _default=diff;exports.default=_default;

@@ -1,0 +1,1 @@
+"use strict";var _interopRequireDefault=require("@babel/runtime/helpers/interopRequireDefault");exports.__esModule=true;exports.default=void 0;var _isArray=_interopRequireDefault(require("./is-array"));var _default=function _default(param){return(0,_isArray.default)(param)&&param.length};exports.default=_default;

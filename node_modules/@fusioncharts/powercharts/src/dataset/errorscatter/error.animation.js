@@ -1,0 +1,1 @@
+"use strict";var _interopRequireDefault=require("@babel/runtime/helpers/interopRequireDefault");exports.__esModule=true;exports.default=void 0;var _line=_interopRequireDefault(require("../errorline/line.animation"));var _default={"initial.dataset.errorScatter":_line.default["initial.dataset.errorLine"]};exports.default=_default;

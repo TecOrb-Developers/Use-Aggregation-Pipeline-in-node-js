@@ -1,0 +1,1 @@
+"use strict";exports.__esModule=true;exports.default=void 0;function interpolateRound(_min,_max){var min=Number(_min),max=Number(_max),diff=max-min;return function(ratio){return Math.round(diff*ratio+min)}}var _default=interpolateRound;exports.default=_default;
