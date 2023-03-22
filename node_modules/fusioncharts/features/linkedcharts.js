@@ -1,1 +1,0 @@
-import Linkedcharts from"@fusioncharts/features/src/linkedcharts";export default Linkedcharts;

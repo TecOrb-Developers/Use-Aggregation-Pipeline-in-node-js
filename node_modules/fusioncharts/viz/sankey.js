@@ -1,1 +1,0 @@
-import Sankey from"@fusioncharts/powercharts/src/chart/sankey";export default Sankey;

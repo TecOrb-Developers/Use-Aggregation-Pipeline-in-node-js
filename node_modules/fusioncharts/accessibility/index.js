@@ -1,1 +1,0 @@
-import AccessibilityExtension from"@fusioncharts/accessibility/src/accessibility";export default AccessibilityExtension;

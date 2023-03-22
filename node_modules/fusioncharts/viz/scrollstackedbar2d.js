@@ -1,1 +1,0 @@
-import Scrollstackedbar2d from"@fusioncharts/charts/src/chart/scrollstackedbar2d";export default Scrollstackedbar2d;

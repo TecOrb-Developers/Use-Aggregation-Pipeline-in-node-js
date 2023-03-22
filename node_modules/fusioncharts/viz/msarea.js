@@ -1,1 +1,0 @@
-import Msarea from"@fusioncharts/charts/src/chart/msarea";export default Msarea;

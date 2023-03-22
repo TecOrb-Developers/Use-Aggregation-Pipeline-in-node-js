@@ -1,1 +1,0 @@
-import Dragcolumn2d from"@fusioncharts/powercharts/src/chart/dragcolumn2d";export default Dragcolumn2d;

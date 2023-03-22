@@ -1,1 +1,0 @@
-import Inputext from"@fusioncharts/features/src/input-ext";export default Inputext;

@@ -1,1 +1,0 @@
-import Splinearea from"@fusioncharts/charts/src/chart/splinearea";export default Splinearea;

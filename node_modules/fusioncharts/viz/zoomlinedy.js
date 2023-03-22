@@ -1,1 +1,0 @@
-import Zoomlinedy from"@fusioncharts/charts/src/chart/zoomlinedy";export default Zoomlinedy;

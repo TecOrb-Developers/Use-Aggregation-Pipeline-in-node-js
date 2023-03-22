@@ -1,1 +1,0 @@
-import Sparkline from"@fusioncharts/widgets/src/chart/sparkline";export default Sparkline;

@@ -1,1 +1,0 @@
-import Supportoldthemesext from"@fusioncharts/features/src/support-old-themes-ext";export default Supportoldthemesext;

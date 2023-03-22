@@ -1,1 +1,0 @@
-import Regressionextension from"@fusioncharts/features/src/regression-extension";export default Regressionextension;

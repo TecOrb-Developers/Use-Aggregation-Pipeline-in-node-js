@@ -1,1 +1,0 @@
-import Pie2d from"@fusioncharts/charts/src/chart/pie2d";export default Pie2d;

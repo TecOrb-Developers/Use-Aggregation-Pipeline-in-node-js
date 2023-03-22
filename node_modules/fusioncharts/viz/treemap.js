@@ -1,1 +1,0 @@
-import Treemap from"@fusioncharts/powercharts/src/chart/treemap";export default Treemap;

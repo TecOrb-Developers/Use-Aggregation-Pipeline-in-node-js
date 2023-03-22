@@ -1,1 +1,0 @@
-import Scrollarea2d from"@fusioncharts/charts/src/chart/scrollarea2d";export default Scrollarea2d;

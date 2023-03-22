@@ -1,1 +1,0 @@
-import Mssplinearea from"@fusioncharts/charts/src/chart/mssplinearea";export default Mssplinearea;

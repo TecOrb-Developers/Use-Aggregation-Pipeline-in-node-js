@@ -1,1 +1,0 @@
-import Area2d from"@fusioncharts/charts/src/chart/area2d";export default Area2d;

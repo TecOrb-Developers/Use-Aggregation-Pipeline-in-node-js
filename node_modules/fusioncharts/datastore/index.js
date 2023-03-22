@@ -1,1 +1,0 @@
-import DataStore from"@fusioncharts/datatable/src/index";import{getConfig,setConfig}from"@fusioncharts/datatable/src/globalConfig";export default DataStore;export{getConfig,setConfig};

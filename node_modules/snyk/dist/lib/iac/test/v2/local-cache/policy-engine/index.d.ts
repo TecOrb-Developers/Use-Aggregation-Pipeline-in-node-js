@@ -1,2 +1,0 @@
-import { TestConfig } from '../../types';
-export declare function initPolicyEngine(testConfig: TestConfig): Promise<string>;

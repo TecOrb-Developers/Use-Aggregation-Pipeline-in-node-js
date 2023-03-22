@@ -1,1 +1,0 @@
-import Xmlurltranscoder from"@fusioncharts/features/src/xml-url-transcoder";export default Xmlurltranscoder;

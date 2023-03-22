@@ -1,1 +1,0 @@
-import Jsonurltranscoder from"@fusioncharts/features/src/json-url-transcoder";export default Jsonurltranscoder;

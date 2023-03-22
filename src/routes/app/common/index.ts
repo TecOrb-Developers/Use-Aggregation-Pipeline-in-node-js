@@ -1,13 +1,10 @@
-import { base } from "@models/customer";
 import { Router } from "express";
-import reportIssueRoute from "./report&Issue";
-import faqRoute from "./faq";
+import aggregationRoute from "./arregation_pipeline";
 
 //Export base-router
 var baseRouter = Router();
 
 //setup routers
-baseRouter.use('/report',reportIssueRoute);
-baseRouter.use('/faq',faqRoute);
+baseRouter.use('/aggregation',aggregationRoute);
 
 export default baseRouter

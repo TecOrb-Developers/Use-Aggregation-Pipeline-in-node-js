@@ -1,1 +1,0 @@
-import Doughnut3d from"@fusioncharts/charts/src/chart/doughnut3d";export default Doughnut3d;

@@ -1,1 +1,0 @@
-import Inversemscolumn2d from"@fusioncharts/powercharts/src/chart/inversemscolumn2d";export default Inversemscolumn2d;

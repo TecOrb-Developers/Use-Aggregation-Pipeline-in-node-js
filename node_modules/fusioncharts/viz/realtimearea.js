@@ -1,1 +1,0 @@
-import Realtimearea from"@fusioncharts/widgets/src/chart/realtimearea";export default Realtimearea;

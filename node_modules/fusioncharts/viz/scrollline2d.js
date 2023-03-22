@@ -1,1 +1,0 @@
-import Scrollline2d from"@fusioncharts/charts/src/chart/scrollline2d";export default Scrollline2d;

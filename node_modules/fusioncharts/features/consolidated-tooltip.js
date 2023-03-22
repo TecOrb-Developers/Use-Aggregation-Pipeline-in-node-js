@@ -1,1 +1,0 @@
-import Consolidatedtooltip from"@fusioncharts/features/src/consolidated-tooltip";export default Consolidatedtooltip;

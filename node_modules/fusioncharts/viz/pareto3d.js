@@ -1,1 +1,0 @@
-import Pareto3d from"@fusioncharts/charts/src/chart/pareto3d";export default Pareto3d;

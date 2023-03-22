@@ -1,1 +1,0 @@
-import Vbullet from"@fusioncharts/widgets/src/chart/vbullet";export default Vbullet;
